@@ -29,8 +29,8 @@ graph LR
 
 ## Main Application Component
 - **Language**: Python
-- **Size**: 0MB
-- **Type**: web-application
+- **Size**: 6MB
+- **Type**: unknown
 
 ## Dependencies
 - External dependencies managed through package management
@@ -40,7 +40,7 @@ graph LR
 
 ## Architecture Patterns
 - **Pattern**: Layered architecture pattern
-- **Structure**: web-application
+- **Structure**: unknown
 
 ## Recommendations
 - Implement dependency injection for better testability
