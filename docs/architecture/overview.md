@@ -67,7 +67,7 @@ System boundaries are defined by the modules and plugins.  Each module has a spe
 
 Due to the lack of complete code, detailed diagrams are not feasible. However, a simplified representation can be provided:
 
-```mermaid
+:::mermaid
 graph LR
     A[Front-end (JavaScript)] --> B(API Layer);
     B --> C{Business Logic Layer (Python)};
@@ -79,7 +79,7 @@ graph LR
         G[Caching]
         H[Message Queue (Celery?)]
     end
-```
+:::
 
 This diagram illustrates the main components and their interactions.  The plugin architecture is represented by the `F` node, showing its integration with the business logic layer.
 
